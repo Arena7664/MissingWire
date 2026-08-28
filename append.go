@@ -1,4 +1,4 @@
-package protowire
+package missingwire
 
 import (
 	"encoding/binary"

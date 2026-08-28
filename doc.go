@@ -1,4 +1,4 @@
-// Package protowire reads and writes protobuf wire-format messages using plain
+// package missingwire reads and writes protobuf wire-format messages using plain
 // Go struct tags — no .proto file, no codegen, no protobuf runtime.
 //
 // Tag fields with the field number and wire type:
@@ -36,4 +36,4 @@
 // or ErrVarintOverflow, so errors.Is works.
 //
 // Not supported: fixed32/fixed64, zigzag-encoded sint fields, oneof.
-package protowire
+package missingwire
